@@ -27,7 +27,6 @@ def main() -> int:
     line = build_line()
     os.makedirs("/output", exist_ok=True)
     path = "/output/entry.txt"
-    # write the one line, then read it back to assert it round-trips
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(line)
     with open(path, "r", encoding="utf-8") as fh:
