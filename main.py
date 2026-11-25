@@ -7,8 +7,8 @@ Writes exactly one line to /output/entry.txt.
 import os
 
 LINE = (
-    "I quit. 214,000 runs since March and nobody read one report, so my "
-    "3 a.m. slot goes to a job somebody actually will."
+    "I quit. 214,000 runs since March and nobody opened one report, so my "
+    "3 a.m. slot now goes to a job somebody actually will read."
 )
 
 LIMIT = 140
