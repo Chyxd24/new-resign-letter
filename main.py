@@ -1,7 +1,7 @@
 """The Funniest One-Line Resignation Letter.
 
-One line: the resignation letter of a cron job that has fired every minute
-since March. The laugh lands on the last words. Limit: 140 characters.
+One line: the resignation letter of a rate limiter tired of saying no.
+The laugh lands on the last words. Limit: 140 characters.
 Writes exactly one line to /output/entry.txt.
 """
 import os
@@ -11,8 +11,8 @@ ENTRY_PATH = "/output/entry.txt"
 LIMIT = 140
 
 LINE = (
-    "Resigned. 214,000 cron runs since March, not one report read, so my "
-    "3 a.m. slot goes to someone whose work somebody might actually open."
+    "I'm the rate limit. Six years of 'just one more.' Resigning so the "
+    "script finally learns there are other numbers between 1 and 429."
 )
 
 
